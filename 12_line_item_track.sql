@@ -1,5 +1,5 @@
 SELECT
 InvoiceId,
-Track.Name
+Track.Name AS 'Track Name'
 FROM InvoiceLine
 INNER JOIN Track ON Track.TrackId = InvoiceLine.TrackId
