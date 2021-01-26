@@ -3,4 +3,4 @@ SELECT
   BillingCountry
 FROM Invoice
 GROUP BY BillingCountry
-ORDER BY  SUM(Total) DESC
+
